@@ -4,12 +4,12 @@ logging:
 spring:
   http:
     multipart:
-      location: ${java.io.tmpdir}/gif/upload2
+      location: ${java.io.tmpdir}/gif/upload
       max-file-size: 50Mb
       max-request-size: 50Mb
 
 com:
   justgifit:
-    export-location: ${java.io.tmpdir}/gif/export2
+    export-location: ${java.io.tmpdir}/gif/export
     create-result-dir: true
 
