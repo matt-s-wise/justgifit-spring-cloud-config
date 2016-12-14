@@ -10,6 +10,6 @@ spring:
 
 com:
   justgifit:
-    gif-location: ${java.io.tmpdir}/gif/
+    gif-location: ${java.io.tmpdir}/gif2/
     create-result-dir: true
 
